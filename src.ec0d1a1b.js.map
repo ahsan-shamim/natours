@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["result","bro","console","log"],"mappings":";;;AAIA,aAJA,QAAA,qBAEA,IAAMA,EAASC,IAAI,UAEnBC,QAAQC,IAAIH","file":"src.ec0d1a1b.js","sourceRoot":"..\\src","sourcesContent":["import \"./scss/style.scss\";\r\n\r\nconst result = bro(\"Shamim\");\r\n\r\nconsole.log(result);\r\n"]}
