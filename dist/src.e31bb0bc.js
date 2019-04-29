@@ -189,29 +189,14 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\hero.jpg":[["hero.3ad8264a.jpg","img/hero.jpg"],"img/hero.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/bro.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.bro = void 0;
-
-var bro = function bro(name) {
-  return "Hello I am ".concat(name);
-};
-
-exports.bro = bro;
-},{}],"index.js":[function(require,module,exports) {
+},{"./..\\img\\hero.jpg":[["hero.3ad8264a.jpg","img/hero.jpg"],"img/hero.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./scss/style.scss");
 
-var _bro = require("./js/bro");
-
-var result = (0, _bro.bro)("Shamim");
+var result = bro("Shamim");
 console.log(result);
-},{"./scss/style.scss":"scss/style.scss","./js/bro":"js/bro.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./scss/style.scss":"scss/style.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -239,7 +224,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "13937" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3154" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
