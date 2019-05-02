@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;AAGA,aADA,QAAA,wBACA,QAAA","file":"src.927086ed.js","sourceRoot":"..\\src","sourcesContent":["// parcel build src/index.html --public-url ./\r\n// delete your dist folder before (npm run build)\r\nimport \"./css/icon-fonts.css\";\r\nimport \"./scss/style.scss\";\r\n"]}
